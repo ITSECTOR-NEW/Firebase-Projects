@@ -1,116 +1,35 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Assessment Page</title>
+  <title>Assessment</title>
   <link rel="stylesheet" href="style.css">
-   
-</head>
-
+ </head>
 <body>
-  <section class="content">
+   <section class="content">
     <h1 class="center">Master Your Skills: Assessments & Challenges</h1>
-
-
-    <div id="quiz-container" style="display: none;">
-      <div id="quiz">
-        <div id="question-container">
-          <!-- Questions and options will be dynamically loaded here -->
-        </div>
-
-        
-
-        <button id="next-btn">Next Question</button>
-        <button id="pre-btn" onclick="preQuestion()">Previous Question</button>
-
-
-
-        <div id="result-container" style="display: none;">
-          <h2>Quiz Completed!</h2>
-          <p>Your score: <span id="score"></span></p>
-          <p>Percentage correct: <span id="percentage"></span>%</p>
-        </div>
-        <button id="home-btn">Go To Home</button>
-        <div id="timer">30:00</div> <!-- Timer display element -->
-      </div>
+    <div class="assessment-grid" id="assessment">
+      Fetching Assessments ...!
     </div>
 
-    <div class="assessment-grid">
-      <div class="assessment-box">
-        <h2 class="assessment-title">JavaScript, HTML and CSS</h2>
-        <p class="assessment-description">Write a function that calculates the factorial of a number.</p>
-        <button class="btn-start" data-subject="htmlcssjs">Start Assessment</button>
+     <div class="popup" id="popup-template" style="display: none;">
+      <h3>Assessment Guidelines</h3>
+      <div>
+        <p>Please read the following guidelines before starting the test:</p>
+        <ul>
+          <li>Ensure you have a stable internet connection.</li>
+          <li>Do not use any external help such as books, internet, or other people.</li>
+          <li>Complete the test within the given time limit.</li>
+          <li>Submit your results to the designated WhatsApp group upon completion.</li>
+          <li>Do not refresh the page during the test.</li>
+        </ul>
       </div>
-
-      <div class="assessment-box">
-        <h2 class="assessment-title">Python Assessment</h2>
-        <p class="assessment-description">Write a Python program to find the largest element in an array.</p>
-        <button class="btn-start" data-subject="python">Start Assessment</button>
-      </div>
-
-      <div class="assessment-box">
-        <h2 class="assessment-title">Node.js Assessment</h2>
-        <p class="assessment-description">Create a simple Node.js server that responds with "Hello, World!".</p>
-        <button class="btn-start" data-subject="nodejs">Start Assessment</button>
-      </div>
-
-      <div class="assessment-box">
-        <h2 class="assessment-title">React.js Assessment</h2>
-        <p class="assessment-description">Build a basic React component that renders a list of items.</p>
-        <button class="btn-start" data-subject="reactjs">Start Assessment</button>
-      </div>
-
-      <div class="assessment-box">
-        <h2 class="assessment-title">MongoDB Assessment</h2>
-        <p class="assessment-description">Design a MongoDB schema for a blog application.</p>
-        <button class="btn-start" data-subject="mongodb" >Start Assessment</button>
-      </div>
-
-      <div class="assessment-box">
-        <h2 class="assessment-title">MySQL Assessment</h2>
-        <p class="assessment-description">Write SQL queries to create and manipulate a database table.</p>
-        <button class="btn-start" data-subject="mysql" >Start Assessment</button>
-      </div>
-
-      <div class="assessment-box">
-        <h2 class="assessment-title">Firebase Assessment</h2>
-        <p class="assessment-description">Implement Firebase authentication in a web application.</p>
-        <button class="btn-start" data-subject="firebase">Start Assessment</button>
-      </div>
-
-      <div class="assessment-box">
-        <h2 class="assessment-title">DevOps Assessment</h2>
-        <p class="assessment-description">Implement DevOps practices in a sample application.</p>
-        <button class="btn-start" data-subject="devops" >Start Assessment</button>
-      </div>
-
-      <div class="assessment-box">
-        <h2 class="assessment-title">Physics, Chemistry, Maths</h2>
-        <p class="assessment-description">Solve mathematical and scientific problems.</p>
-        <button class="btn-start" data-subject="pcm" >Start Assessment</button>
-      </div>
-
-      <div class="assessment-box">
-        <h2 class="assessment-title">Reasoning Assessment</h2>
-        <p class="assessment-description">Test logical and analytical reasoning skills.</p>
-        <button class="btn-start" data-subject="reasoning" >Start Assessment</button>
-      </div>
+      <input type="hidden" name="quizcode" value="">
+      <button type="submit" class="btn-submit">Start</button>
+      <button type="button" class="btn-back">Back</button>
     </div>
 
-    
-
+     <div id="overlay" style="display: none;"></div>
   </section>
-
-   <!-- Include Firebase config file -->
-    
-   <script type="module" src=" script.js"></script>
-   <script type="module" src=" dbconfig.js"></script>
- 
-   
-   
-   
+   <script type="module" src="script.js"></script>
 </body>
-
-</html>
+</html> -->
