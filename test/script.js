@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
         createdAt: new Date().toISOString(),
       });
 
-      alert("Signup successful! Please log in.");
+      alert("Signup successful!! Please log in.");
       signupSection.style.display = "none";
       loginSection.style.display = "block";
     } catch (error) {
